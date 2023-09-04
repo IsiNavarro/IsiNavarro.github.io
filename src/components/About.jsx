@@ -8,6 +8,7 @@ import reactLogo from '../assets/React-icon.svg';
 import jsLogo from '../assets/JavaScript_logo.svg';
 import cssLogo from '../assets/CSS3_logo.svg';
 import htmlLogo from '../assets/HTML5_logo.svg';
+import aboutMePic from '../assets/about-me-picture.jpg';
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
             <div className="hidden lg:block min-w-[320px] max-w-[320px]">
               <img
                 className="object-cover rounded-md shadow-2xl"
-                src="src/assets/about-me-picture.jpg"
+                src={aboutMePic}
                 alt=""
               />
             </div>
