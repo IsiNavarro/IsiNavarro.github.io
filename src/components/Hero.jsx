@@ -12,10 +12,10 @@ const Hero = () => {
       {/*Container*/}
       <div className="max-w-[800px] px-14 flex flex-col justify-center">
         <h1 className="text-4xl lg:text-6xl font-bold text-[#2d2e32] text-center lg:text-left">
-          Full-Stack MERN Developer
+          Front-End REACT Developer
         </h1>
         <p className=" text-gray-800 py-4 max-w-[700px] text-center md:text-xl lg:text-left">
-          Hi, I'm Isidro Navarro. A passionate full-stack developer based in
+          Hi, I'm Isidro Navarro. A passionate front-end developer based in
           Valencia, Spain.
         </p>
         <button className="text-gray-700 border-2 border-gray-500 px-6 py-4 my-2  hover:bg-gray-700 hover:border-gray-700 hover:text-white duration-100 rounded-sm lg:self-start self-center">
