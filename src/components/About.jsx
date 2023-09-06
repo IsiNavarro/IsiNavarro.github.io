@@ -70,7 +70,7 @@ const About = () => {
                 alt="Tailwind CSS"
               />
             </div>
-            <div className="rounded-lg shadow-lg w-[64px] h-[64px] lg:w-[80px] lg:h-[80px] p-2 pt-5 flex items-center justify-center hover:scale-[105%] hover:cursor-pointer duration-200">
+            {/*<div className="rounded-lg shadow-lg w-[64px] h-[64px] lg:w-[80px] lg:h-[80px] p-2 pt-5 flex items-center justify-center hover:scale-[105%] hover:cursor-pointer duration-200">
               <img
                 className="object-contain"
                 src={nodeLogo}
@@ -78,8 +78,8 @@ const About = () => {
               />
             </div>
             <div className="rounded-lg shadow-lg w-[64px] h-[64px] lg:w-[80px] lg:h-[80px] pt-2 flex items-center justify-center hover:scale-[105%] hover:cursor-pointer duration-200">
-              <img className="object-contain" src={mongoDBLogo} alt="MongoDB" />
-            </div>
+              <img className="object-contain" src={mongoDBLogo} alt="MongoDB" /> 
+  </div> */}
             <div className="rounded-lg shadow-lg w-[64px] h-[64px] lg:w-[80px] lg:h-[80px] p-4 pt-6 flex items-center justify-center hover:scale-[105%] hover:cursor-pointer duration-200">
               <img className="object-contain" src={gitLogo} alt="Git" />
             </div>
