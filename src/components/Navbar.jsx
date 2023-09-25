@@ -110,7 +110,7 @@ const Navbar = () => {
               <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-40 h-16 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-800 rounded-md">
+          {/*<li className="w-40 h-16 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-800 rounded-md">
             <a
               href="/"
               className="w-full flex justify-between gap-3 items-center text-white text-base"
@@ -118,7 +118,7 @@ const Navbar = () => {
               Resume
               <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+      </li>*/}
         </ul>
       </div>
     </nav>
