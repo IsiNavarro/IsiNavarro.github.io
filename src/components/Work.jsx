@@ -42,9 +42,9 @@ const Work = () => {
               RF Möbel | Minimalism furniture
             </h4>
             <p>
-              The old Battleship carboard game in the browser. Built with
-              vanilla HTML, CSS and JS. The main purpose of the project was to
-              practice testing with Jest.
+              A clean fully responsive e-commerce mock website where customers
+              can filter, find and add different types of furniture to a
+              shopping cart, created to practise routing with REACT.
             </p>
             <div className="flex items-center justify-center gap-2">
               <div className="rounded-lg shadow-lg shadow-[#61dafbb7] px-3 py-1 font-bold text-[#61DAFB]">
@@ -96,10 +96,11 @@ const Work = () => {
             <h4 className="text-center md:text-left  text-xl font-bold text-gray-800">
               ART GALLERY | Memoseum
             </h4>
-            <p>
-              The old Battleship carboard game in the browser. Built with
-              vanilla HTML, CSS and JS. The main purpose of the project was to
-              practice testing with Jest.
+            <p>A memory card game with 3 different levels of difficulty. </p>
+            <p className="my-1">
+              The objective is simple: click on as many famous paintings as you
+              can, but here's the catch – you can't click on the same
+              masterpiece twice!
             </p>
             <div className="flex items-center justify-center gap-2">
               <div className="rounded-lg shadow-lg shadow-[#61dafbb7] px-3 py-1 font-bold text-[#61DAFB]">
@@ -152,9 +153,13 @@ const Work = () => {
               CV App
             </h4>
             <p>
-              The old Battleship carboard game in the browser. Built with
-              vanilla HTML, CSS and JS. The main purpose of the project was to
-              practice testing with Jest.
+              This app lets you create a personal CV. As you enter your
+              information, a visual representation will be rendered on the side,
+              so that you can see how it will look like.
+            </p>
+            <p>
+              Once you're happy with the result, you can then press a button to
+              download it as a PDF file.
             </p>
             <div className="flex items-center justify-center gap-2">
               <div className="rounded-lg shadow-lg shadow-[#61dafbb7] px-3 py-1 font-bold text-[#61DAFB]">
