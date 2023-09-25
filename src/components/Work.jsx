@@ -3,6 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink } from 'react-icons/fi';
 import MemoryImage from '../assets/isinavarro-odin-memory-app.netlify.app_ (1).png';
 import BattleshipImage from '../assets/isinavarro.github.io_odin-Battleship_.png';
+import CVImage from '../assets/isinavarro-odin-cv-app.netlify.app_.png';
 
 const Work = () => {
   return (
@@ -131,23 +132,23 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white mx-3 py-4 px-8 rounded-md flex flex-col justify-center items-center md:flex-row shadow-lg md:gap-6">
+        <div className="bg-white mx-3 py-4 px-8 rounded-md flex flex-col justify-center items-center md:flex-row lg:items-start shadow-lg md:gap-6">
           <a
-            href="https://isinavarro.github.io/odin-Battleship/"
+            href="https://isinavarro-odin-cv-app.netlify.app/"
             target="_blank"
             className="my-6 max-w-[420px]"
             rel="noreferrer"
           >
             <img
               className="object-cover rounded-md shadow-xl"
-              src={BattleshipImage}
+              src={CVImage}
               alt="project pic"
             />
           </a>
 
-          <div className="flex flex-col gap-4 mb-4 justify-evenly">
+          <div className="flex flex-col gap-4 mb-4 justify-evenly py-5">
             <h4 className="text-center md:text-left  text-xl font-bold text-gray-800">
-              BATTLESHIP
+              CV App
             </h4>
             <p>
               The old Battleship carboard game in the browser. Built with
@@ -155,18 +156,18 @@ const Work = () => {
               practice testing with Jest.
             </p>
             <div className="flex items-center justify-center gap-2">
-              <div className="rounded-lg shadow-lg shadow-[#f7de1e7c] px-3 py-1 font-bold text-[#f7df1e]">
-                JavaScript
+              <div className="rounded-lg shadow-lg shadow-[#61dafbb7] px-3 py-1 font-bold text-[#61DAFB]">
+                REACT
               </div>
-              <div className="rounded-lg shadow-lg shadow-[#99425b75] px-3 py-1 font-bold text-[#99425b]">
-                Jest
+              <div className="rounded-lg shadow-lg shadow-[#06b5d4b9] px-3 py-1 font-bold text-[#06B6D4]">
+                TailwindCSS
               </div>
             </div>
             <div className="flex justify-evenly py-4">
               <button className="text-xl hover:text-orange-500 duration-300">
                 <a
                   className="flex items-center gap-2"
-                  href="https://github.com/IsiNavarro/odin-Battleship"
+                  href="https://github.com/IsiNavarro/odin-CV-app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -176,7 +177,7 @@ const Work = () => {
               <button className="text-xl hover:text-orange-500 duration-300">
                 <a
                   className="flex items-center gap-2"
-                  href="https://isinavarro.github.io/odin-Battleship/"
+                  href="https://isinavarro-odin-cv-app.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
