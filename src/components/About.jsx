@@ -24,12 +24,9 @@ const About = () => {
                 About me
               </h3>
               <p className="text-justify px-4 md:text-lg lg:px-0">
-                I am a self-taught programmer with a passion for coding and
-                problem-solving. While pursuing my degree in Mechanical
-                Engineering at UPV, I discovered my love for programming. I am
-                driven by the constant challenges thrown at you while coding and
-                am committed to keep on learning and growing in this amazing,
-                ever-changing field.
+                While pursuing my degree in Mechanical Engineering at UPV, I
+                also discovered my love for programming. I am a self-taught
+                programmer with a passion for coding and problem-solving.
               </p>
             </div>
 
